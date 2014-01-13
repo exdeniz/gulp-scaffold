@@ -1,5 +1,4 @@
 // Инициализируем плагины
-
 var lr = require('tiny-lr'), // Минивебсервер для livereload
     gulp = require('gulp'), // Сообственно Gulp JS
     jade = require('gulp-jade'), // Плагин для Jade
@@ -63,7 +62,7 @@ gulp.task('images', function() {
 
 
 
-// Запускаем локальный сервер для разработки
+// Локальный сервер для разработки
 gulp.task('http-server', function() {
     connect()
         .use(require('connect-livereload')())
