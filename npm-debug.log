@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'gulp-cli', '-g' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 verbose cache add [ 'gulp-cli', null ]
+5 verbose cache add name=undefined spec="gulp-cli" args=["gulp-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'gulp-cli',
+6 verbose parsed url   path: 'gulp-cli',
+6 verbose parsed url   href: 'gulp-cli' }
+7 silly lockFile e23a8be8-gulp-cli gulp-cli
+8 verbose lock gulp-cli /Users/exdeniz/.npm/e23a8be8-gulp-cli.lock
+9 silly lockFile e23a8be8-gulp-cli gulp-cli
+10 silly lockFile e23a8be8-gulp-cli gulp-cli
+11 verbose addNamed [ 'gulp-cli', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+14 verbose lock gulp-cli@ /Users/exdeniz/.npm/dd34a9c8-gulp-cli.lock
+15 silly addNameRange { name: 'gulp-cli', range: '*', hasData: false }
+16 verbose url raw gulp-cli
+17 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-cli' ]
+18 verbose url resolved https://registry.npmjs.org/gulp-cli
+19 info trying registry request attempt 1 at 18:23:13
+20 http GET https://registry.npmjs.org/gulp-cli
+21 http 404 https://registry.npmjs.org/gulp-cli
+22 silly registry.get cb [ 404,
+22 silly registry.get   { date: 'Mon, 27 Jan 2014 14:23:15 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '52',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1390832595.022800922,VS0,VE132',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+24 silly lockFile dd34a9c8-gulp-cli gulp-cli@
+25 error 404 'gulp-cli' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Darwin 13.0.0
+27 error command "node" "/usr/local/bin/npm" "install" "gulp-cli" "-g"
+28 error cwd /Users/exdeniz/gulp-scaffold
+29 error node -v v0.10.17
+30 error npm -v 1.3.8
+31 error code E404
+32 verbose exit [ 1, true ]

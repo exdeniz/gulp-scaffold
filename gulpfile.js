@@ -73,7 +73,7 @@ gulp.task('http-server', function() {
 });
 
 // Запуск сервера разработки gulp watch
-gulp.task('watch', function() {
+gulp.task('default', function() {
     // Предварительная сборка проекта
     gulp.run('stylus');
     gulp.run('jade');
